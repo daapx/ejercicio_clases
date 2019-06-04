@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body class="root">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <header class="container">
+                <header class="container navigation" >
                     <div class="row">
                         <div class="col-2">
-                            <img src="" alt="logo"></div>
+                            <svg class="navigation__logo" viewBox="0 0 245 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path d="M0 0 L 20 10 L 0 20 Z"></path>
+                                <path d="M0 30 L 20 40 L 0 50 Z M20 45 L 0 55 L 20 65 Z M0 60 L 20 70 L 0 80 Z"></path>
+                                <text x="40" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" letter-spacing="-.025em" fill="currentColor">incline.</text>
+                            </svg>
+                        </div>
                         <div class="col-2">
-                            <span>icono 1</span>
-                            <span>icono 2</span>
-                            <span>icono 3</span>
+                            <div class="navigation__rrss">
+                                <span>icono 1</span>
+                                <span>icono 2</span>
+                                <span>icono 3</span>
+                            </div>
                         </div>
                         <div class="col-8">
-                            <nav>
+                            <nav class="navigation__menu">
                                 <ul>
-                                    <li>Welcome</li>
+                                    <li>Welcome </li>
                                     <li>Landings</li>
                                     <li>Pages</li>
                                     <li>Components</li>
